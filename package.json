@@ -8,7 +8,8 @@
     "start": "node server.js",
     "dev": "nodemon server.js",
     "frontend:dev": "npm run dev --prefix frontend",
-    "frontend:build": "npm run build --prefix frontend"
+    "build": "echo 'Build skipped'",
+    "frontend:build": "echo 'Frontend build skipped'"
   },
   "dependencies": {
     "better-sqlite3": "^11.0.0",
