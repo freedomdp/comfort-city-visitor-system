@@ -273,7 +273,6 @@ function App() {
               Пульт охорони
             </a>
           </li>
-          {/* ТИМЧАСОВО ПРИХОВАНО
           <li>
             <a 
               className={`sidebar-item ${activeTab === 'expected' ? 'active' : ''}`}
@@ -300,8 +299,6 @@ function App() {
               Активні всередині
             </a>
           </li>
-          */}
-          {/* ТИМЧАСОВО ПРИХОВАНО
           <li>
             <a 
               className="sidebar-item"
@@ -331,7 +328,6 @@ function App() {
               Історія подій
             </a>
           </li>
-          */}
           <li>
             <a 
               className="sidebar-item"
@@ -379,6 +375,9 @@ function App() {
               <option value="sys_admin">⚙️ Тех. адміністратор</option>
             </select>
           </div>
+        </div>
+        <div style={{ textAlign: 'center', padding: '0.5rem 1rem 0.75rem', fontSize: '0.65rem', color: 'var(--text-muted, #6b7280)', opacity: 0.6, letterSpacing: '0.05em' }}>
+          v2.0.0
         </div>
       </aside>
 
